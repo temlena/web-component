@@ -90,7 +90,9 @@ class HeroSection extends HTMLElement {
         }
         .hero-container {
           display: flex;
-          justify-content: space-around;
+          align-items: center;
+          justify-content: center;
+          gap:20px;
         }
         .left img{
             width: 500px;
@@ -106,15 +108,15 @@ class HeroSection extends HTMLElement {
           display: flex;
           align-items:center;
           justify-content:center;
+          gap:50px;
          }
          .desc p{
             line-height: 30px;
             font-family: "Poppins", sans-serif;
          }
          .desc img{
-          width: 120px;
-          height:120px;
-          margin-left: 30px;
+          width: 100px;
+          height:100px;
          }
 
       `;
